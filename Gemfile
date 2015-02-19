@@ -7,10 +7,13 @@ gem 'rails', '4.1.0'
 group :development do 
   # Use sqlite3 as the database for Active Record for development
   gem 'sqlite3'
+  gem 'byebug'
+  gem 'web-console'
 end
 
 group :production do
   gem 'pg'
+  gem 'rails_12factor'
 end
 
 # Use SCSS for stylesheets
